@@ -1,0 +1,17 @@
+CAPI=2:
+
+name: "::vhdl_lib:0.1.0"
+description: "VHDL Library"
+
+filesets:
+  src_files:
+    files:
+      - "general/rtl/Debouncer.vhd"
+      - "general/rtl/StdRtlPkg.vhd"
+      - "general/rtl/Sync.vhd"
+      - "general/rtl/SyncVec.vhd"
+    file_type: "vhdlSource-2008"
+
+targets:
+    filesets:
+      - "src_files"
